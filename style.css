@@ -1,0 +1,16 @@
+div {
+font-family: Impact;
+  font-size: 25px;
+  text-align: justify;
+  border-style: dotted;
+  border-width: 5px;
+  margin: 35px auto;
+  padding: 10px 5px 10px 5px;
+  width: auto;
+  background-color:#7FFFD4;
+  border-radius: 10px;
+}
+
+p {
+  font-family: Arial;
+}
