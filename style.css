@@ -1,3 +1,7 @@
+* {
+ background-color:#7FFFD4;
+}
+
 div {
 font-family: Impact;
   font-size: 25px;
@@ -7,7 +11,6 @@ font-family: Impact;
   margin: 35px auto;
   padding: 10px 5px 10px 5px;
   width: auto;
-  background-color:#7FFFD4;
   border-radius: 10px;
 }
 

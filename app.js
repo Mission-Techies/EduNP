@@ -8,10 +8,16 @@ var renderedunpData = function(data) {
     edunpHTML += '<p>' + program.fields['Description'] + '</p>';
     if (program.fields['Email']) {
       edunpHTML += '<p>' + program.fields['Email'] + '</p>';
-      edunpHTML += '<p>' + program.fields['Volunteer'] + '</p>';
     }
 
+    if (program.fields['Agency Contacts']) {
+      edunpHTML += '<p>' + program.fields['Agency Contacts'] + '</p>';
+    }
+    edunpHTML += '<a href="' + program.fields['Adress'] + '">' + program.fields['Adress'] + '</a>';
+
+
     edunpHTML += '<hr />';
+
   });
   edunpDiv.html(edunpHTML);
 };
