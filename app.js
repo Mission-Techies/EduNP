@@ -13,9 +13,7 @@ var renderedunpData = function(data) {
       edunpHTML += '<p>' + program.fields['Agency Contacts'] + '</p>';
     };
     edunpHTML += '<a href="' + program.fields['Adress'] + '">' + program.fields['Adress'] + '</a>';
-    //if (program.fields['Adress']) {
-    //  edunpHTML += '<p>' + program.fields['Adress'] + '</p>';
-    };
+    
     edunpHTML += '<hr />';
   });
   edunpDiv.html(edunpHTML);
