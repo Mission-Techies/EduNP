@@ -13,10 +13,12 @@ var renderedunpData = function(data) {
       edunpHTML += '<p>' + program.fields['Agency Contacts'] + '</p>';
     };
     edunpHTML += '<a href="' + program.fields['Adress'] + '">' + program.fields['Adress'] + '</a>';
-    
+
     edunpHTML += '<hr />';
   });
   edunpDiv.html(edunpHTML);
 };
-
+function myFunction(x) {
+    x.classList.toggle("change");
+}
 $.getJSON(edunp_data_url, renderedunpData);
