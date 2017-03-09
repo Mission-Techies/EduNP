@@ -13,11 +13,6 @@ var renderedunpData = function(data) {
       edunpHTML += '<p>' + program.fields['Agency Contacts'] + '</p>';
     };
     edunpHTML += '<a href="' + program.fields['Adress'] + '">' + program.fields['Adress'] + '</a>';
-
-//
-if (program.fields['Category']){
-  edunpHTML += '<p>'+ program.fields['Category']+ '<p>';
-};
     edunpHTML += '<hr />';
   });
   edunpDiv.html(edunpHTML);
