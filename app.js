@@ -12,9 +12,9 @@ var renderedunpData = function(data) {
     if (program.fields['Agency Contacts']) {
       edunpHTML += '<p>' + program.fields['Agency Contacts'] + '</p>';
     };
-    //edunpHTML += '<a href="' + program.fields['Adress'] + '">' + program.fields['Adress'] + '</a>';
-    if (program.fields['Adress']) {
-      edunpHTML += '<p>' + program.fields['Adress'] + '</p>';
+    edunpHTML += '<a href="' + program.fields['Adress'] + '">' + program.fields['Adress'] + '</a>';
+    //if (program.fields['Adress']) {
+    //  edunpHTML += '<p>' + program.fields['Adress'] + '</p>';
     };
     edunpHTML += '<hr />';
   });
