@@ -4,10 +4,11 @@
 }
 
 .thumbnail-logo{
-  display: block;
+  /*display: block;*/
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
+  padding-bottom: 0;
   width: 100%;
 }
 
@@ -19,7 +20,7 @@ nav {
     top: 0;
     bottom: 0;
     width: 150px;
-    background-color: white;
+    background-color: transparent;
     transform: translate3d(-150px, 0, 0);
     transition: transform 0.4s ease;
 }
@@ -34,7 +35,7 @@ nav ul li a {
     text-decoration: none;
     display: block;
     text-align: center;
-    color: #136100;
+    /*color: #136100;*/
     padding: 10px 0;
     font-weight: bold;
     font-size: 20px;
@@ -51,6 +52,7 @@ nav ul li a:hover{
     position: absolute;
     left: 150px;
 
+
 }
 
 .glyphicon{
@@ -60,6 +62,7 @@ nav ul li a:hover{
 
 .glyphicon:hover{
   color: #f30056;
+
 }
 
 .active-nav .content {

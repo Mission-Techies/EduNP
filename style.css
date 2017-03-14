@@ -1,5 +1,5 @@
-*{
-  background-color: #FFB6C1;
+* {
+  background-color: #F0FFFF;
 }
 
 div {
@@ -15,7 +15,7 @@ font-family: Impact;
 }
 
 p {
-  font-family: sans-serif;
+  font-family: serif;
 
 }
 .container {
