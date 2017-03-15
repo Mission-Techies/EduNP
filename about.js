@@ -4,7 +4,7 @@
 
   Util = (function() {
     function Util() {}
-    
+
     Util.prototype.extend = function(custom, defaults) {
       var key, value;
       for (key in custom) {
