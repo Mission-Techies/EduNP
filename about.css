@@ -42,7 +42,7 @@ h2 { font-size: 28px; }
 h3 { font-size: 22px; }
 h4 { font-size: 22px;
   padding: 40px 10px 15px 10px;
-	text-align: center;
+	text-align: justify;
 }
 h5 { font-size: 16px; }
 h6 { font-size: 14px; }
@@ -52,11 +52,11 @@ h6 { font-size: 14px; }
 	margin: 0 auto;
 }
 
-/*section {
+section {
 	position: relative;
 	height: 200px;
 	margin: 60px 0;
-}*/
+}
 
 .section--white {
 	background-color: #FFFFFF;
@@ -74,9 +74,9 @@ h6 { font-size: 14px; }
 	background-color: #33CCF7;
 }
 
-/*.section--yellow {
+.section--yellow {
 	background-color: #F4E9B4;
-}*/
+}
 
 .section--green {
 	background-color: #80D99D;
@@ -107,17 +107,15 @@ h6 { font-size: 14px; }
 	overflow: hidden;
 }
 
-/*.wow_imgage {
+.wow_imgage {
 	position: relative;
 	float: left;
 	margin: 0 20px 20px 0;
 	width: 270px;
 	height: 180px;
 }
-*/
 .wow_imgage img {
 	border: 4px solid #e4e4e1;
-	padding:20px, 10px;
 }
 
 /*-=-=-=-=-=-=-=-=-=-*/
@@ -125,7 +123,7 @@ h6 { font-size: 14px; }
 /*-=-=-=-=-=-=-=-=-= */
 
 .col_half { width: 49%; }
-.col_third { width: 50%; }
+.col_third { width: 32%; }
 .col_fourth { width: 23.5%; }
 .col_fifth { width: 18.4%; }
 .col_sixth { width: 15%; }
@@ -140,13 +138,15 @@ h6 { font-size: 14px; }
 	position: relative;
 	display:inline;
 	display: inline-block;
-	float: center;
+	float: left;
 	margin-right: 2%;
 	margin-bottom: 20px;
-	padding:20 px, 10px;
 }
 .end { margin-right: 0 !important; }
 
+/*-=-=-=-=-=-=-=-=-=-*/
+/* Links */
+/*-=-=-=-=-=-=-=-=-= */
 
 a {	text-decoration: none; color: #666666;}
 a:hover, a:active { outline: 0; color: #666666; }
@@ -171,9 +171,3 @@ body { font-family: sans-serif; }
 }
 
 /* Icons courtesy of Thom : http://pixelb.in/assorted-pixel-perfect-14px-icon-set-286/ */
-.borderImages{
-	position: relative;
-	top: 30px;
-	border: 25px solid #F4E9B4;
-	margin: 10px 0px;
-}
