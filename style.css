@@ -9,7 +9,7 @@ font-family: Impact;
   border-width: 5px;
   margin: 35px 0;
   padding: 15px 10px 15px 10px;
-  width: 500px;
+  width: 700px;
   border-style: none;
   border-radius: 10px;
 }
@@ -84,4 +84,31 @@ p {
 /*.topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+*/
+
+.content{
+  width: 100%;
+  height: auto;
+}
+.leftsideContent{
+  font-family: Impact;
+    font-size-adjust: auto;
+    text-align: justify;
+    border-width: 5px;
+    margin: 35px 0;
+    padding: 15px 10px 15px 10px;
+    width: 50%;
+    border-style: none;
+    border-radius: 10px;
+    display: block;
+    float: left;
+}
+.rightsideContent {
+  width: 40%;
+  position: inherit;
+  right: 100%;
+  top: 0%;
+  display: block;
+  float: left;
 }
