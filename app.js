@@ -20,4 +20,13 @@ var renderedunpData = function(data) {
 function myFunction(x) {
     x.classList.toggle("change");
 }
+/*
+$.each(edunp_Pictures, function(i, Pictures){
+  edunpHTML += "</br>";
+    edunpHTML += `<img src="${Pictures.url}">`;
+    console.log(Pictures.url);
+    edunpHTML += '<hr />';
+  });
+*/
+
 $.getJSON(edunp_data_url, renderedunpData);
