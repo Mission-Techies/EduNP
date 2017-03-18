@@ -45,7 +45,7 @@ form.on('submit', function(e){
        'Name': name,
        'Description': description,
        'Email': email,
-       'Agency Contacts': agency contact,
+       'agency contacts': agency contact,
     }
    };
   $.post(submitURL, data, function(data){
