@@ -116,3 +116,12 @@ p {
   width: 100%;
   border-radius: 50%;
 }
+
+
+/*This is the css for the box to input data*/
+
+.error {
+  border: 1px solid red;
+}
+
+/*This is the end of the box to input data*/
