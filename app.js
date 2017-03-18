@@ -30,7 +30,7 @@ form.on('submit', function(e){
    var fullname = $(this).find('input[name=name]').val();
    var address = $(this).find('input[name=description]').val();
    var email = $(this).find('input[name=email]').val();
-   var agency contacts = $(this).find('textarea[name=agency contacts]').val();
+   var agencycontacts = $(this).find('textarea[name=agencycontacts]').val();
 
    if (!fullname) {
       $(this).find('input[name=Name]').addClass("error");
@@ -45,7 +45,7 @@ form.on('submit', function(e){
        'Name': name,
        'Description': description,
        'Email': email,
-       'agency contacts': agency contact,
+       'agencycontacts': agencycontact,
     }
    };
   $.post(submitURL, data, function(data){
