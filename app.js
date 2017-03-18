@@ -20,48 +20,4 @@ var renderedunpData = function(data) {
 function myFunction(x) {
     x.classList.toggle("change");
 }
-/*
-$.each(edunp_Pictures, function(i, Pictures){
-  edunpHTML += "</br>";
-    edunpHTML += `<img src="${Pictures.url}">`;
-    console.log(Pictures.url);
-    edunpHTML += '<hr />';
-  });
-*/
-
 $.getJSON(edunp_data_url, renderedunpData);
-
-
-/*This is the start of the box to input data*/
-var submitURL = 'https://api.airtable.com/v0/appQ8einDCzZyfJYO/Agency?api_key=keyFQuPxdLW9FdIUb';
-var form = $('#my-form');
-form.on('submit', function(e){
-   e.preventDefault();
-   var fullname = $(this).find('input[name=name]').val();
-   var address = $(this).find('input[name=description]').val();
-   var gender = $(this).find('input[name=email]').val();
-   var bio = $(this).find('textarea[name=agency contacts]').val();
-
-   if (!fullname) {
-      $(this).find('input[name=Name]').addClass("error");
-     return;
-   }
-   if (!description) {
-     alert('no description');
-     return;
-   }
-   var data = {
-     'fields': {
-       'Name': name,
-       'Description': description,
-       'Email': email,
-       'Agency Contacts': agency contact,
-    }
-   };
-  $.post(submitURL, data, function(data){
-     $('#submit-message').text('Submitted!!!!');
-     console.log('success',data)
-  });
-});
-
-/*This is the end of the box to input data*/
