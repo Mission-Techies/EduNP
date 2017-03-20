@@ -48,7 +48,13 @@ p {
   display: block;
   float: left;
 }
+h6 {
+  font-family: inherit;
+  font-size: 20px;
+  text-align: center;
+  font-size-adjust: auto;
 
+}
 /*This is the css for the box to input data*/
 
 .error {
