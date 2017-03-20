@@ -1,0 +1,29 @@
+* {
+  background-color: #F0FFFF;
+}
+
+/*div {
+font-family: Impact;
+  font-size-adjust: auto;
+  text-align: justify;
+  border-width: 5px;
+  margin: 35px 0;
+  padding: 15px 10px 15px 10px;
+  width: 700px;
+  border-style: none;
+  border-radius: 10px;
+}*/
+
+p {
+  font-family: serif;
+
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.content{
+  width: 100%;
+  height: auto;
+}

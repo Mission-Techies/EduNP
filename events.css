@@ -1,0 +1,165 @@
+/*-=-=-=-=-=-=-=-=-=-*/
+/* GENERAL STYLES */
+/*-=-=-=-=-=-=-=-=-= */
+*{
+	background-color: #1e202b;
+	color: #666666;
+	background-image: url(http://subtlepatterns.com/patterns/stardust.png);
+	background-position: initial initial;
+	background-repeat: initial initial;
+
+}
+
+body {
+	overflow: scroll;
+	font-family: "Open Sans", Arial, Helvetica;
+	text-align: center;
+	background-color: #1e202b;
+	color: #666666;
+	background-image: url(http://subtlepatterns.com/patterns/stardust.png);
+	background-position: initial initial;
+	background-repeat: initial initial;
+}
+
+.clear	{
+	clear: both;
+	display: block;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 30px 0;
+	font-weight: 300;
+}
+h1 { font-size: 34px;
+font-family: fantasy;
+color: white;
+text-align: center;
+}
+
+h4 { font-size: 22px;
+  padding: 40px 10px 15px 10px;
+	text-align: center;
+	font-family: cursive;
+	color: white;
+}
+
+
+#container {
+	width:  860px;
+	margin: 0 auto;
+}
+
+/*section {
+	position: relative;
+	height: 200px;
+	margin: 60px 0;
+}*/
+
+/*.section--white {
+	background-color: #FFFFFF;
+}
+
+.section--red {
+	background-color: #E74C3C;
+}
+*/
+.section--purple {
+	background-color: #D6A8E9;
+}
+
+/*.section--blue {
+	background-color: #33CCF7;
+}
+
+.section--yellow {
+	background-color: #F4E9B4;
+}
+
+.section--green {
+	background-color: #80D99D;
+}
+.section--cyan{
+	background-color: #80D99D;
+}
+
+.section--pale{
+	background-color: #F4E9B4;
+}
+*/
+.col_third section { margin: 0; }
+
+
+.icn_purple { color: #9B59B6; }
+
+
+/* First 3 Pictures*/
+.wow_imgage img {
+	padding:20px, 10px;
+	position: relative;
+	top: 30px;
+	border: 25px solid #FFC0CB;
+	margin: 10px 0px;
+}
+
+
+.col_third { width: 50%; }
+
+.col_three_fourth { width: 74.5%;}
+
+
+.col_third,
+
+.col_three_fourth, {
+
+	position: relative;
+	display:inline;
+	display: inline-block;
+	float: center;
+	margin-right: 2%;
+	margin-bottom: 20px;
+	padding:20 px, 10px;
+}
+/*.end { margin-right: 0 !important; }
+
+
+a {	text-decoration: none; color: #666666;}
+a:hover, a:active { outline: 0; color: #666666; }
+body { font-family: sans-serif; }*/
+
+#main-menu .nav-bar { list-style: none; margin-top: 40px; }
+#main-menu .nav-bar li { display:inline; padding:0 10px; }
+
+#main-menu .nav-bar li a {
+  text-decoration: none;
+  padding: 25px;
+  text-transform: uppercase;
+  color: #333;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+.nav-bar .nav-button-home a { background: url(images/home-5-48.png)
+	no-repeat
+	left
+	transparent;
+
+}
+
+/* Icons courtesy of Thom : http://pixelb.in/assorted-pixel-perfect-14px-icon-set-286/ */
+.borderImages{
+	position: relative;
+	top: 30px;
+	border: 25px solid #FFC0CB;
+	margin: 10px 0px;
+
+}

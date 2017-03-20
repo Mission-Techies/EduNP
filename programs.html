@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="programs.css" rel="stylesheet">
+    <!--<link href="NAV.css" rel="stylesheet">-->
+  </head>
+  <body>
+    <nav>
+    <ul>
+    <li><a href="mainpage.html"> Home</a></li>
+  </nav>
+
+<div class="programs">
+</div>
+
+<p>this is where the programs have to display</p>
+
+
+
+      <h5>Powered and Designed by Mission Techies 2017 Cohort #13 </h5>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="programs.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script type="text/javascript">
+        (function() {
+            var bodyEl = $('body'),
+                navToggleBtn = bodyEl.find('.nav-toggle-btn');
+            navToggleBtn.on('click', function(e) {
+                bodyEl.toggleClass('active-nav');
+                e.preventDefault();
+            });
+        })();
+        </script>
+
+  </body>
+</html>
