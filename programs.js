@@ -18,9 +18,10 @@ var programs_Pictures = programs.fields['Pictures'];
   programsHTML +="</br>";
   programsHTML += <img src="${Pictures.url}">;
   console.log(Pictures.url);
+  */
   programsHTML += '<hr />';
 });
-*/
+
 programsDiv.html(techiesHTML);
 });
 //
