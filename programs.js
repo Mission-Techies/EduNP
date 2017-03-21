@@ -1,6 +1,6 @@
 
 
-var programs_data_url = 'https://api.airtable.com/v0/appQ8einDCzZyfJYO/Programs?maxRecords=3&view=Main%20View';
+var programs_data_url = 'https://api.airtable.com/v0/appQ8einDCzZyfJYO/Programs/?api_key=keykbC2FwErK6UFom';
 var programsHTML = '';
 var programsDiv = $('.programs');
 var renderprogramsData = function (data) {
