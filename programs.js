@@ -9,7 +9,7 @@ var renderprogramsData = function (data) {
 var programs_Pictures = programs.fields['Pictures'];
     programsHTML += '<h2>' + programs.fields['Name'] + '</h2>';
     programsHTML += '<h2>' + programs.fields['Description'] + '</h2>';
-    programsHTML += '<h2>' + programs.fields['Pictures'] + '</h2>';
+    /*programsHTML += '<h2>' + programs.fields['Pictures'] + '</h2>';*/
     programsHTML += '<h2>' + programs.fields['Agency'] + '</h2>';
     programsHTML += '<hr />';
 
