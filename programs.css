@@ -2,8 +2,8 @@
   background-color: #F0FFFF;
 }
 
-/*div {
-font-family: Impact;
+div {
+font-family: sans-serif;
   font-size-adjust: auto;
   text-align: justify;
   border-width: 5px;
@@ -11,8 +11,8 @@ font-family: Impact;
   padding: 15px 10px 15px 10px;
   width: 700px;
   border-style: none;
-  border-radius: 10px;
-}*/
+
+}
 
 p {
   font-family: serif;
@@ -26,4 +26,7 @@ p {
 .content{
   width: 100%;
   height: auto;
+}
+.icon {
+  width: 200px;
 }

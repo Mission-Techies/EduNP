@@ -33,8 +33,9 @@ function myFunction(x) {
 $.getJSON(edunp_data_url, renderedunpData);
 
 /*This is the start of the box to input data*/
-/*var submitURL = 'https://api.airtable.com/v0/appQ8einDCzZyfJYO/Agency?api_key=keyFQuPxdLW9FdIUb';*/
+var submitURL = 'https://api.airtable.com/v0/appQ8einDCzZyfJYO/Agency?api_key=keyFQuPxdLW9FdIUb';
 var form = $('#my-form');
+console.log(form);
 form.on('submit', function(e){
    e.preventDefault();
    var fullname = $(this).find('input[name=name]').val();
@@ -58,6 +59,7 @@ form.on('submit', function(e){
        'agencycontacts': agencycontact,
     }
    };
+   console.log(data);
   $.post(submitURL, data, function(data){
      $('#submit-message').text('Submitted!!!!');
      console.log('success',data)
