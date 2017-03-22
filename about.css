@@ -146,5 +146,12 @@ a {	text-decoration: none; color: #666666;}
 a:hover, a:active { outline: 0; color: #666666; }
 
 img {
-	padding-top: 9%;
+	padding: 7%;
+	background-color: #F4E9B4;
+}
+section {
+	margin-bottom: 20px;
+}
+
+
 }
