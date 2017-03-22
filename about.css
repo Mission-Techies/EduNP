@@ -160,3 +160,19 @@ padding: 70px;
 	position: relative;
 	margin-top: auto;
 }
+
+#main-menu .nav-bar li a {
+  text-decoration: none;
+  padding: 25px;
+  text-transform: uppercase;
+  color: #333;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+.nav-bar .nav-button-home a { background: url(images/home-5-48.png)
+	no-repeat
+	left
+	transparent;
+	position: relative;
+	float: left;
+}
