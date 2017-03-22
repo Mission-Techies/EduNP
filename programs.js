@@ -16,6 +16,7 @@ console.log(programsHTML);
 programsDiv.html(programsHTML);
 console.log(programsHTML);
 });
+}
 //
 $.getJSON(programs_data_url, renderprogramsData);
 console.log(programsHTML);
