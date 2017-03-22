@@ -12,8 +12,10 @@ var renderprogramsData = function (data) {
     /*programsHTML += '<h2>' + programs.fields['Pictures'] + '</h2>';*/
     programsHTML += '<h2>' + programs.fields['Agency'] + '</h2>';
     programsHTML += '<hr />';
-
+console.log(programsHTML);
 programsDiv.html(programsHTML);
+console.log(programsHTML);
 });
 //
 $.getJSON(programs_data_url, renderprogramsData);
+console.log(programsHTML);
