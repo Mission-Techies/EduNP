@@ -6,17 +6,24 @@ var programsDiv = $('.programs');
 var renderprogramsData = function (data) {
   console.log(data);
   data.records.forEach(function(programs) {
-/*var programs_Pictures = programs.fields['Pictures'];*/
+var icon_Pictures = programs.fields['Pictures'];
     programsHTML += '<h2>' + programs.fields['Name'] + '</h2>';
     programsHTML += '<h2>' + programs.fields['Description'] + '</h2>';
-    /*programsHTML += '<h2>' + programs.fields['Pictures'] + '</h2>';*/
     programsHTML += '<h2>' + programs.fields['Agency'] + '</h2>';
+
+    $.each(icon_Pictures, function(i, Pictures){
+      programsHTML += "</br>";
+      programsHTML += `<img class="icon" src="${Pictures.url}">`;
+      console.log(Pictures.url);
     programsHTML += '<hr />';
-console.log(programsHTML);
+  });
+
+
 programsDiv.html(programsHTML);
-console.log(programsHTML);
+
 });
 }
+
 //
 $.getJSON(programs_data_url, renderprogramsData);
 console.log(programsHTML);
