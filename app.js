@@ -3,6 +3,7 @@ var edunpHTML = '';
 var edunpDiv = $('.Agency');
 var renderedunpData = function(data) {
   data.records.forEach(function(program) {
+    var icon_Pictures = program.fields['Attachments'];
     edunpHTML += '<h2>' + program.fields['Name'] + '</h2>';
     edunpHTML += '<a href="' + program.fields['Extension'] + '">' + program.fields['Extension'] + '</a>';
     edunpHTML += '<p>' + program.fields['Description'] + '</p>';
@@ -13,10 +14,19 @@ var renderedunpData = function(data) {
       edunpHTML += '<p>' + program.fields['Agency Contacts'] + '</p>';
     };
     edunpHTML += '<a href="' + program.fields['Adress'] + '">' + program.fields['Adress'] + '</a>';
+
+    $.each(icon_Pictures, function(i, Pictures){
+  edunpHTML += "</br>";
+    edunpHTML += `<img class="icon" src="${Pictures.url}">`;
+    console.log(Pictures.url);
+
+
     edunpHTML += '<hr />';
   });
   edunpDiv.html(edunpHTML);
-};
+});
+
+}
 function myFunction(x) {
     x.classList.toggle("change");
 }
