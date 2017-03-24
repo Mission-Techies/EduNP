@@ -38,8 +38,8 @@ var form = $('#my-form');
 console.log(form);
 form.on('submit', function(e){
    e.preventDefault();
-   var fullname = $(this).find('input[name=name]').val();
-   var address = $(this).find('input[name=description]').val();
+   var name = $(this).find('input[name=name]').val();
+   var description = $(this).find('input[name=description]').val();
    var email = $(this).find('input[name=email]').val();
    var agencycontacts = $(this).find('textarea[name=agencycontacts]').val();
 
@@ -56,7 +56,7 @@ form.on('submit', function(e){
        'Name': name,
        'Description': description,
        'Email': email,
-       'agencycontacts': agencycontact,
+       'agencycontacts': agencycontacts,
     }
    };
    console.log(data);
