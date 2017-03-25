@@ -1,20 +1,20 @@
 
 *{
 	background-color: #1e202b;
-	color: #666666;
+	color: #ffffff;
 	background-image: url(http://subtlepatterns.com/patterns/stardust.png);
 	background-position: initial initial;
 	background-repeat: initial initial;
-
+	text-align: justify;
 }
 
 h1 {
   font-family: cursive;
   font-size: 20px;
   font-size-adjust: auto;
-  color: white;
   text-align: center;
-  text-decoration:
+  text-decoration:none;
+	color: white;
 }
 /* start of 6 conatiners*/
 @import "compass/css3";
@@ -35,10 +35,10 @@ h1 {
 }
 
 .flex-item {
-  background: violet;
+  background: #ffcb73;
   padding: 5px;
   width: 200px;
-  height: 150px;
+  height: 100px;
   margin-top: 10px;
   line-height: 150px;
   color: white;
@@ -54,7 +54,7 @@ h1 {
   text-decoration: none;
   padding: 25px;
   text-transform: uppercase;
-  color: #333;
+  color: white;
 	text-shadow: 1px 1px 1px #ccc;
 }
 
@@ -69,4 +69,8 @@ h1 {
 	font-family: cursive;
 	font-size: 25px;
 	text-align: center;
+}
+
+.icon {
+  width: 200px;
 }

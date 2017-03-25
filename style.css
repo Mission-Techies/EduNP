@@ -1,5 +1,5 @@
 * {
-  background-color: #F0FFFF;
+  background-color: #94918c;
 }
 
 div {
@@ -9,9 +9,10 @@ font-family: Impact;
   border-width: 5px;
   margin: 35px 0;
   padding: 15px 10px 15px 10px;
-  width: 700px;
+  width: 1000px;
   border-style: none;
   border-radius: 10px;
+
 }
 
 p {
@@ -40,14 +41,14 @@ p {
     display: block;
     float: left;
 }
-.rightsideContent {
+/*.rightsideContent {
   width: 40%;
   position: inherit;
   right: 100%;
   top: 0%;
   display: block;
   float: left;
-}
+}*/
 h6 {
   font-family: inherit;
   font-size: 20px;

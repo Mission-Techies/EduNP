@@ -35,10 +35,18 @@ h4 {
 	padding: 40px 10px 15px 10px;
 	text-align: center;
 	font-family: cursive;
-	color: white;
 	font-size: 25px;
 }
+h3 {
+margin: 30px 0;
+font-weight: 300;
+padding: 40px 10px 15px 10px;
+text-align: center;
+font-family: cursive;
+font-size: 25px;
+color: #fefefe;
 
+}
 
 
 #container {
@@ -61,14 +69,14 @@ section {
 }
 
 .section--purple {
-	background-color: #D6A8E9;
+	background-color: #85f441;
 }
 
 .section--blue {
 	background-color: #33CCF7;
 }
 
-.section--yellow {
+/*.section--yellow {
 	background-color: #F4E9B4;
 }
 
@@ -82,14 +90,14 @@ section {
 .section--pale{
 	background-color: #F4E9B4;
 }
-
+*/
 .col_third section { margin: 0; }
 
-.icn_red { color: #FF3D6A; }
+.icn_red { color: #85f441; }
 .icn_purple { color: #9B59B6; }
-.icn_blue{ color: #3498DB; }
+.icn_blue{ color: #f7ff5d; }
 .icn_yellow { color: #F1C40F; }
-.icn_green { color: #80D99D; }
+.icn_green { color: #ffc700; }
 
 /*-=-=-=-=-=-=-=-=-=-*/
 /* Wow Image */
@@ -148,7 +156,7 @@ a:hover, a:active { outline: 0; color: #666666; }
 
 img {
 	padding: 7%;
-	background-color: #F4E9B4;
+	background-color: #faad01;
 }
 section {
 	margin-bottom: 20px;
@@ -163,13 +171,13 @@ padding: 70px;
 
 #main-menu .nav-bar li a {
   text-decoration: none;
-  padding: 25px;
+  padding: 40px;
   text-transform: uppercase;
   color: #333;
 	text-shadow: 1px 1px 1px #ccc;
 }
 
-.nav-bar .nav-button-home a { background: url(images/home-5-48.png)
+.nav-bar .nav-button-home a { background: url(images/menuorg.png)
 	no-repeat
 	left
 	transparent;

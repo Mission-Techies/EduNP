@@ -5,9 +5,21 @@ var rendereventsData = function(data) {
   console.log(data);
   data.records.forEach(function(program) {
     var icon_Pictures = program.fields['Pictures'];
-    eventsHTML += '<h2>' + program.fields['Name'] + '</h2>';
-    eventsHTML += '<a href="' + program.fields['Notes'] + '">' + program.fields['Notes'] + '</a>';
-    eventsHTML += '<p>' + program.fields['URL'] + '</p>';
+
+
+if(program.fields['Name']) {
+      eventsHTML += '<p>' + program.fields['Name'] + '</p>';
+};
+
+if(program.fields['Notes']) {
+      eventsHTML += '<p>' + program.fields['Notes'] + '</p>';
+};
+    if (program.fields['URL']) {
+      eventsHTML += '<p>' + program.fields['URL'] + '</p>';
+
+    };
+
+
     if (program.fields['Agency']) {
       eventsHTML += '<p>' + program.fields['Agency'] + '</p>';
 
