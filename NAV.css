@@ -47,12 +47,6 @@ nav ul li a:hover{
 
 }
 
-.nav-toggle-btn {
-    display: block;
-    position: absolute;
-    left: 150px;
-
-}
 
 .glyphicon{
   font-size: 2.5em;
@@ -74,4 +68,7 @@ nav ul li a:hover{
   background-image: url("images/menuorg.png");
   background-size: contain;
   border: none;
+  display: block;
+  position: absolute;
+  left: 150px;
 }

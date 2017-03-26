@@ -8,14 +8,15 @@ var rendereventsData = function(data) {
 
 
 if(program.fields['Name']) {
-      eventsHTML += '<p>' + program.fields['Name'] + '</p>';
+      eventsHTML += '<h3>' + program.fields['Name'] + '</h3>';
 };
 
 if(program.fields['Notes']) {
       eventsHTML += '<p>' + program.fields['Notes'] + '</p>';
 };
     if (program.fields['URL']) {
-      eventsHTML += '<p>' + program.fields['URL'] + '</p>';
+      eventsHTML += '<a href="' + program.fields['URL'] + '">' + program.fields['URL'] + '</a>';
+    
 
     };
 

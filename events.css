@@ -5,7 +5,7 @@
 	background-image: url(http://subtlepatterns.com/patterns/stardust.png);
 	background-position: initial initial;
 	background-repeat: initial initial;
-	text-align: justify;
+	text-align: center;
 }
 
 h1 {
@@ -52,13 +52,13 @@ h1 {
 
 #main-menu .nav-bar li a {
   text-decoration: none;
-  padding: 25px;
+  padding: 40px;
   text-transform: uppercase;
   color: white;
 	text-shadow: 1px 1px 1px #ccc;
 }
 
-.nav-bar .nav-button-home a { background: url(images/home-5-48.png)
+.nav-bar .nav-button-home a { background: url(images/menuorg.png)
 	no-repeat
 	left
 	transparent;
@@ -72,5 +72,29 @@ h1 {
 }
 
 .icon {
-  width: 200px;
+  width: 200px; 
+}
+h5 {
+	font: 15px/1.2 'Merienda One', Helvetica, sans-serif;
+	text-align: left;
+	color: #ff86c4;
+}
+h3 {
+	text-align: center;
+  font: 50px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #f4d860;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+h1 {
+	text-align: center;
+  font: 50px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #a7f185;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+a {
+	text-align: center;
+  font: 20px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #85f1d0;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
 }

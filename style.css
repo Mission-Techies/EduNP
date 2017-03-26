@@ -1,35 +1,38 @@
 * {
-  background-color: #94918c;
+    background-image: url(http://subtlepatterns.com/patterns/stardust.png);
 }
 
 div {
-font-family: Impact;
-  font-size-adjust: auto;
-  text-align: justify;
-  border-width: 5px;
-  margin: 35px 0;
-  padding: 15px 10px 15px 10px;
-  width: 1000px;
-  border-style: none;
-  border-radius: 10px;
-
+    font-family: Impact;
+    font-size-adjust: auto;
+    text-align: center;
+    border-width: 5px;
+    margin: 35px 0;
+    padding: 15px 10px 15px 10px;
+    width: 1000px;
+    border-style: none;
+    border-radius: 10px;
 }
 
 p {
-  font-family: serif;
-
+    font: 20px/1.2 'Merienda One', Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
 }
+
 .container {
     display: inline-block;
     cursor: pointer;
 }
 
-.content{
-  width: 100%;
-  height: auto;
+.content {
+    width: 100%;
+    height: auto;
 }
-.leftsideContent{
-  font-family: Impact;
+
+.leftsideContent {
+    font-family: Impact;
     font-size-adjust: auto;
     text-align: justify;
     border-width: 5px;
@@ -41,6 +44,8 @@ p {
     display: block;
     float: left;
 }
+
+
 /*.rightsideContent {
   width: 40%;
   position: inherit;
@@ -49,21 +54,46 @@ p {
   display: block;
   float: left;
 }*/
-h6 {
-  font-family: inherit;
-  font-size: 20px;
-  text-align: center;
-  font-size-adjust: auto;
 
+h6 {
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+    font-size-adjust: auto;
 }
+
+
 /*This is the css for the box to input data*/
 
 .error {
-  border: 1px solid red;
+    border: 1px solid red;
 }
+
 
 /*This is the end of the box to input data*/
 
 .icon {
-  width: 200px;
+    width: 200px;
+    object-position: center;
+}
+
+h2 {
+    font: 70px/0.8 'Cookie', Helvetica, sans-serif;
+    color: #ffdb7d;
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    font: 30px/0.8 'Cookie', Helvetica, sans-serif;
+    color: #82f591;
+    text-align: center;
+    padding: 5px;
+}
+
+h5 {
+    font: 15px/1.2 'Merienda One', Helvetica, sans-serif;
+    color: #ff86c4;
+    text-align: left;
+    padding: 5px;
 }

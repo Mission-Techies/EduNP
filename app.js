@@ -13,7 +13,7 @@ var renderedunpData = function(data) {
     if (program.fields['Agency Contacts']) {
       edunpHTML += '<p>' + program.fields['Agency Contacts'] + '</p>';
     };
-    edunpHTML += '<a href="' + program.fields['Adress'] + '">' + program.fields['Adress'] + '</a>';
+    edunpHTML += '<p>' + program.fields['Adress']  + '</p>';
 
     $.each(icon_Pictures, function(i, Pictures){
   edunpHTML += "</br>";
