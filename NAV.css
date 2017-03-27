@@ -3,16 +3,14 @@
     padding: 0;
 }
 
-.thumbnail-logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 50px;
-  padding-bottom: 0;
-  width: 100%;
+.thumbnail-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 0;
+    width: 100%;
 }
-
-
 
 nav {
     position: fixed;
@@ -24,13 +22,16 @@ nav {
     transform: translate3d(-150px, 0, 0);
     transition: transform 0.4s ease;
 }
+
 .active-nav nav {
     transform: translate3d(0, 0, 0);
 }
+
 nav ul {
     list-style: none;
     margin-top: 100px;
 }
+
 nav ul li a {
     text-decoration: none;
     display: block;
@@ -41,22 +42,18 @@ nav ul li a {
     font-size: 20px;
     font: 15px/1.2 'Merienda One', Helvetica, sans-serif;
 }
-nav ul li a:hover{
 
-  background: #fffd52;
-  text-decoration: none;
-
+nav ul li a:hover {
+    background: #fffd52;
+    text-decoration: none;
 }
 
-
-.glyphicon{
-  font-size: 2.5em;
-
+.glyphicon {
+    font-size: 2.5em;
 }
 
-.glyphicon:hover{
-  color: #eff933;
-
+.glyphicon:hover {
+    color: #eff933;
 }
 
 .active-nav .content {
@@ -64,12 +61,12 @@ nav ul li a:hover{
 }
 
 .nav-toggle-btn, .btn, .btn-default {
-  width: 50px;
-  height: 50px;
-  background-image: url("images/menuorg.png");
-  background-size: contain;
-  border: none;
-  display: block;
-  position: absolute;
-  left: 150px;
+    width: 50px;
+    height: 50px;
+    background-image: url("images/menuorg.png");
+    background-size: contain;
+    border: none;
+    display: block;
+    position: absolute;
+    left: 150px;
 }

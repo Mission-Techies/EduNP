@@ -1,100 +1,109 @@
-
-*{
-	background-color: #1e202b;
-	color: #ffffff;
-	background-image: url(http://subtlepatterns.com/patterns/stardust.png);
-	background-position: initial initial;
-	background-repeat: initial initial;
-	text-align: center;
+* {
+    background-color: #1e202b;
+    color: #ffffff;
+    background-image: url(http://subtlepatterns.com/patterns/stardust.png);
+    background-position: initial initial;
+    background-repeat: initial initial;
+    text-align: center;
 }
 
 h1 {
-  font-family: cursive;
-  font-size: 20px;
-  font-size-adjust: auto;
-  text-align: center;
-  text-decoration:none;
-	color: white;
+    font-family: cursive;
+    font-size: 20px;
+    font-size-adjust: auto;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
+
+
 /* start of 6 conatiners*/
+
 @import "compass/css3";
-
 .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .flex-item {
-  background: #ffcb73;
-  padding: 5px;
-  width: 200px;
-  height: 100px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
+    background: #ffcb73;
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
 }
+
+
 /* end of 6 conatiners*/
-#main-menu .nav-bar { list-style: none; margin-top: 40px; }
-#main-menu .nav-bar li { display:inline; padding:0 10px; }
+
+#main-menu .nav-bar {
+    list-style: none;
+    margin-top: 40px;
+}
+
+#main-menu .nav-bar li {
+    display: inline;
+    padding: 0 10px;
+}
 
 #main-menu .nav-bar li a {
-  text-decoration: none;
-  padding: 40px;
-  text-transform: uppercase;
-  color: white;
-	text-shadow: 1px 1px 1px #ccc;
+    text-decoration: none;
+    padding: 40px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px #ccc;
 }
 
-.nav-bar .nav-button-home a { background: url(images/menuorg.png)
-	no-repeat
-	left
-	transparent;
-
+.nav-bar .nav-button-home a {
+    background: url(images/menuorg.png) no-repeat left transparent;
 }
 
 .events {
-	font-family: cursive;
-	font-size: 25px;
-	text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
 }
 
 .icon {
-  width: 200px; 
+    width: 200px;
 }
+
 h5 {
-	font: 15px/1.2 'Merienda One', Helvetica, sans-serif;
-	text-align: left;
-	color: #ff86c4;
+    font: 15px/1.2 'Merienda One', Helvetica, sans-serif;
+    text-align: left;
+    color: #ff86c4;
 }
+
 h3 {
-	text-align: center;
-  font: 50px/1.3 'Oleo Script', Helvetica, sans-serif;
-  color: #f4d860;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    text-align: center;
+    font: 50px/1.3 'Oleo Script', Helvetica, sans-serif;
+    color: #f4d860;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
+
 h1 {
-	text-align: center;
-  font: 50px/1.3 'Oleo Script', Helvetica, sans-serif;
-  color: #a7f185;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    text-align: center;
+    font: 50px/1.3 'Oleo Script', Helvetica, sans-serif;
+    color: #a7f185;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
 a {
-	text-align: center;
-  font: 20px/1.3 'Oleo Script', Helvetica, sans-serif;
-  color: #85f1d0;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    text-align: center;
+    font: 20px/1.3 'Oleo Script', Helvetica, sans-serif;
+    color: #85f1d0;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
