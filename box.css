@@ -72,13 +72,13 @@
      /* My stipped background */
      background: #D1D1D1;
      /* Old browsers */
-     background: -moz-repeating-linear-gradient(-45deg, #EFC1CB, #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px, #F2F2F2 70px, #F2F2F2 80px);
+     background: -moz-repeating-linear-gradient(-45deg, #ffd84f, #f7f279 30px, #F2F2F2 30px, #F2F2F2 40px, #79f6e3 40px, #67c8e9 70px, #F2F2F2 70px, #F2F2F2 80px);
      /* FF3.6+ */
-     background: -webkit-repeating-linear-gradient(-45deg, #EFC1CB, #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px, #F2F2F2 70px, #F2F2F2 80px);
+     background: -webkit-repeating-linear-gradient(-45deg, #ffd84f, #f7f279 30px, #F2F2F2 30px, #F2F2F2 40px, #79f6e3 40px, #67c8e9 70px, #F2F2F2 70px, #F2F2F2 80px);
      /* FF3.6+ */
-     background: -o-repeating-linear-gradient(-45deg, #EFC1CB, #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px, #F2F2F2 70px, #F2F2F2 80px);
+     background: -o-repeating-linear-gradient(-45deg, #ffd84f, #f7f279 30px, #F2F2F2 30px, #F2F2F2 40px, #79f6e3 40px, #67c8e9 70px, #F2F2F2 70px, #F2F2F2 80px);
      /* FF3.6+ */
-     background: repeating-linear-gradient(-45deg, #EFC1CB, #EFC1CB 30px, #F2F2F2 30px, #F2F2F2 40px, #C2E8F5 40px, #C2E8F5 70px, #F2F2F2 70px, #F2F2F2 80px);
+     background: repeating-linear-gradient(-45deg, #ffd84f, #f7f279 30px, #F2F2F2 30px, #F2F2F2 40px, #79f6e3 40px, #67c8e9 70px, #F2F2F2 70px, #F2F2F2 80px);
      /* FF3.6+ */
      /*border-radius*/
      -webkit-border-radius:8px;
@@ -280,3 +280,16 @@
      box-shadow:0px -1px 1px #FFF inset, 0 0 0px 5px #E0E0E0;
  }
  /* end of the card*/
+ #main-menu .nav-bar li a {
+     text-decoration: none;
+     padding: 40px;
+     text-transform: uppercase;
+     color: #333;
+     text-shadow: 1px 1px 1px #ccc;
+ }
+
+ .nav-bar .nav-button-home a {
+     background: url(images/menuorg.png) no-repeat left transparent;
+     position: relative;
+     float: left;
+ }
