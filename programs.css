@@ -1,5 +1,5 @@
 * {
-    background-image: url(http://subtlepatterns.com/patterns/stardust.png);
+    background-image: url('file:images/stardust.png');
 }
 
 div {
